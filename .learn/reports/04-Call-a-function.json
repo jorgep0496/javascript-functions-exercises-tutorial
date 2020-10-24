@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 4,
+  "numPassedTests": 0,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mDeclare a squareArea variable for each call ex. squareArea1, squareArea2...\u001b[39m\u001b[22m\n\n    ReferenceError: squareArea1 is not defined\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat eval (eval at __get__ (\u001b[2mexercises/04-Call-a-function/app.js\u001b[2m:15:16), <anonymous>:1:1)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.__get__ (\u001b[2mexercises/04-Call-a-function/app.js\u001b[2m:15:16)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/04-Call-a-function/tests.js\u001b[39m\u001b[0m\u001b[2m:9:27)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mYou have to call the function calculateArea three times with the different area parameters\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property '1' of null\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 28 | \u001b[39m    \u001b[36mconst\u001b[39m match3 \u001b[33m=\u001b[39m regex3\u001b[33m.\u001b[39mexec(fileContent)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 29 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 30 | \u001b[39m    expect(parseInt(match1[\u001b[35m1\u001b[39m]\u001b[33m,\u001b[39m\u001b[35m10\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[35m4\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                          \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 31 | \u001b[39m    expect(parseInt(match1[\u001b[35m2\u001b[39m]\u001b[33m,\u001b[39m\u001b[35m10\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[35m4\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 | \u001b[39m    expect(parseInt(match2[\u001b[35m1\u001b[39m]\u001b[33m,\u001b[39m\u001b[35m10\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 33 | \u001b[39m    expect(parseInt(match2[\u001b[35m2\u001b[39m]\u001b[33m,\u001b[39m\u001b[35m10\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/04-Call-a-function/tests.js\u001b[39m\u001b[0m\u001b[2m:30:27)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mCall the calculateArea function with the correct parameters\u001b[39m\u001b[22m\n\n    ReferenceError: squareArea1 is not defined\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat eval (eval at __get__ (\u001b[2mexercises/04-Call-a-function/app.js\u001b[2m:15:16), <anonymous>:1:1)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.__get__ (\u001b[2mexercises/04-Call-a-function/app.js\u001b[2m:15:16)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/04-Call-a-function/tests.js\u001b[39m\u001b[0m\u001b[2m:42:27)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mThe function calculateArea has to be called with the two values\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property '1' of null\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 66 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 67 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 68 | \u001b[39m    expect(parseInt(match1[\u001b[35m1\u001b[39m]\u001b[33m,\u001b[39m\u001b[35m10\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                          \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 69 | \u001b[39m    expect(parseInt(match1[\u001b[35m2\u001b[39m]\u001b[33m,\u001b[39m\u001b[35m10\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 70 | \u001b[39m    expect(parseInt(match2[\u001b[35m1\u001b[39m]\u001b[33m,\u001b[39m\u001b[35m10\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 71 | \u001b[39m    expect(parseInt(match2[\u001b[35m2\u001b[39m]\u001b[33m,\u001b[39m\u001b[35m10\u001b[39m))\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/04-Call-a-function/tests.js\u001b[39m\u001b[0m\u001b[2m:68:27)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "Declare a squareArea variable for each call ex. squareArea1, squareArea2...",
+      "status": "failed"
+    },
+    {
+      "title": "You have to call the function calculateArea three times with the different area parameters",
+      "status": "failed"
+    },
+    {
+      "title": "Call the calculateArea function with the correct parameters",
+      "status": "failed"
+    },
+    {
+      "title": "The function calculateArea has to be called with the two values",
+      "status": "failed"
+    }
+  ]
+}

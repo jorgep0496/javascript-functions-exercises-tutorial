@@ -1,0 +1,21 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTests": 1,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mconsole.log() should be called with euroToYen and dollarToEuro with the correct parameter of 137?\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mjest.fn()\u001b[39m\u001b[2m).\u001b[22mtoHaveBeenCalledWith\u001b[2m(\u001b[22m\u001b[32m...expected\u001b[39m\u001b[2m)\u001b[22m\n\n    Expected: \u001b[32m15137.609500000002\u001b[39m\n    Received: \u001b[31m14352.12\u001b[39m\n\n    Number of calls: \u001b[31m1\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 12 | \u001b[39mit(\u001b[32m'console.log() should be called with euroToYen and dollarToEuro with the correct parameter of 137?'\u001b[39m\u001b[33m,\u001b[39m \u001b[36mfunction\u001b[39m () {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 13 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 14 | \u001b[39m  expect(console\u001b[33m.\u001b[39mlog)\u001b[33m.\u001b[39mtoHaveBeenCalledWith(\u001b[35m15137.609500000002\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                      \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 15 | \u001b[39m\u001b[90m//    console.log(euroToYen(dollarToEuro(137)));\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 16 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/08-Function-that-returns/test.js\u001b[39m\u001b[0m\u001b[2m:14:23)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "Did you use console.log?",
+      "status": "passed"
+    },
+    {
+      "title": "console.log() should be called with euroToYen and dollarToEuro with the correct parameter of 137?",
+      "status": "failed"
+    }
+  ]
+}

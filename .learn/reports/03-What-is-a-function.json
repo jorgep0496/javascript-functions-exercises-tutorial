@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 4,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "Declare a superduper variable",
+      "status": "passed"
+    },
+    {
+      "title": "Superduper has to be equal to the sum of the two numbers",
+      "status": "passed"
+    },
+    {
+      "title": "You have to call the function sum",
+      "status": "passed"
+    },
+    {
+      "title": "The function sum has to be called with the two values",
+      "status": "passed"
+    }
+  ]
+}

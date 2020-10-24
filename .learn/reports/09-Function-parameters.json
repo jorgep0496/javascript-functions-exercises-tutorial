@@ -1,0 +1,25 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTests": 2,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mDid you return the parameters in the correct concatenation?\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mjest.fn()\u001b[39m\u001b[2m).\u001b[22mtoHaveBeenCalledWith\u001b[2m(\u001b[22m\u001b[32m...expected\u001b[39m\u001b[2m)\u001b[22m\n\n    Expected: \u001b[32m\"Bob is a 23 years old male born on 05/22/1983 with green eyes\"\u001b[39m\n    Received: \u001b[31m\"Bob is a 23 years old male born in 05/22/1983 with green eyes\"\u001b[39m\n\n    Number of calls: \u001b[31m1\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 21 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 22 | \u001b[39mit(\u001b[32m'Did you return the parameters in the correct concatenation?'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 23 | \u001b[39m   expect(console\u001b[33m.\u001b[39mlog)\u001b[33m.\u001b[39mtoHaveBeenCalledWith(\u001b[32m\"Bob is a 23 years old male born on 05/22/1983 with green eyes\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 24 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 25 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 26 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/09-Function-parameters/tests.js\u001b[39m\u001b[0m\u001b[2m:23:24)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "Did you create a function named \"renderPerson\" that expects five parameters?",
+      "status": "passed"
+    },
+    {
+      "title": "Did you use console.log?",
+      "status": "passed"
+    },
+    {
+      "title": "Did you return the parameters in the correct concatenation?",
+      "status": "failed"
+    }
+  ]
+}

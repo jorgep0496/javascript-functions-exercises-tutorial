@@ -1,0 +1,25 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 3,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "Call the console.log function once",
+      "status": "passed"
+    },
+    {
+      "title": "The console.log output does not match what we expected",
+      "status": "passed"
+    },
+    {
+      "title": "Did you called the function multy with the two parameters?",
+      "status": "passed"
+    }
+  ]
+}

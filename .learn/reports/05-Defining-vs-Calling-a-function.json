@@ -1,0 +1,21 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 2,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "Did you create a function named \"multi\" that expects two parameters and returns a result?",
+      "status": "passed"
+    },
+    {
+      "title": "Did you return the two parameters multiplied by each other?",
+      "status": "passed"
+    }
+  ]
+}
